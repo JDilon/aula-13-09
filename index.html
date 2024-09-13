@@ -1,11 +1,64 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Document</title>
-</head>
-<body>joao pedro
-    
-</body>
+    <style>
+        *{
+            /* o asterisco aplica o css a tudo!
+            usamos ele para fazer o reset(limpar)
+            o css padão do navegaror e aplicar um unico 
+            */
+
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box; /* define o tamanho do elemento*/
+            line-height: 1.5;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        p{
+            font-size: 14px;
+            color: black;
+        }
+
+        h1,h2,h3,h4,h5,h6{
+            font-weight: bold;
+            color:blueviolet !important;
+            margin-bottom: 20px;
+            text-align:center;
+        }
+
+        .container{
+            padding-left: 20%;
+            padding-right: 20%;
+        }
+
+        .card{
+            border:1px #cccccc solid;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 10px auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1 );
+        }
+
+        .tamanho-50{
+            width:49%;
+            max-width:49%;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+
+   
+    <h1 style="color: aqua;">fabuloso</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, fugiat similique. Sint ducimus rerum quo accusamus sequi unde soluta quam explicabo impedit cum facere quis expedita a nobis, iusto molestias?</p>
+    </div>
+    <div class="card tamanho-50">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus exercitationem omnis explicabo quam magni et quaerat laboriosam deleniti, optio impedit? Incidunt suscipit doloremque laboriosam, animi alias ullam. Itaque, maiores voluptatem?
+    </div>
+
+
+  </body> 
 </html>
